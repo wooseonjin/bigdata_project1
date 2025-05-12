@@ -91,3 +91,9 @@ finally:
 # 수집된 데이터 출력 (또는 파일로 저장)
 for webtoon in webtoons_data:
     print(webtoon)
+
+# 데이터를 CSV 파일 등으로 저장하고 싶다면 pandas 라이브러리 사용을 고려해 볼 수 있습니다.
+# import pandas as pd
+# df = pd.DataFrame(webtoons_data)
+# df.to_csv('naver_monday_webtoons.csv', index=False, encoding='utf-8-sig')
+# print("\n데이터를 'naver_monday_webtoons.csv' 파일로 저장했습니다.")
